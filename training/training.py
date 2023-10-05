@@ -11,12 +11,13 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Get the directory of the current script
 script_directory = os.path.dirname(os.path.abspath(__file__))
-print(script_directory)
 
 # Create a directory for logs relative to the script directory
 log_directory = os.path.join(script_directory, '../logs')
 data_collection_directory = os.path.join(script_directory, '../data_collection')
 data_directory=os.path.join(data_collection_directory, 'collected_data.json')
+tfidf_vectorizer_directory=os.path.join(script_directory, 'tfidf_vectorizer.pkl')
+purchase_history_directory=os.path.join(script_directory, 'purchase_history.pkl')
 if not os.path.exists(log_directory):
     os.makedirs(log_directory)
 
@@ -40,11 +41,12 @@ def preprocess_text(text):
 def process_data_and_save():
     try:
         # Load the JSON data
-        with open(data_directory, 'r') as file:  #3.0/training/collected_data.json
+        with open(data_directory, 'r') as file:  
             data = json.load(file)
 
         # Extract the relevant data part
         data_part = data
+        # print(data_part)
 
         # Flatten the nested JSON structure using json_normalize
         data = pd.json_normalize(data_part, record_path=['searchInfo'], meta=['customerEmailId'])
@@ -68,14 +70,15 @@ def process_data_and_save():
         tfidf_vectorizer.fit(product_descriptions)
 
         # Save tfidf_vectorizer to a pickle file
-        with open('tfidf_vectorizer.pkl', 'wb') as file:
+        with open(tfidf_vectorizer_directory, 'wb') as file:
             pickle.dump(tfidf_vectorizer, file)
 
         # Save purchase_history to a pickle file
-        with open('purchase_history.pkl', 'wb') as file:
+        with open(purchase_history_directory, 'wb') as file:
             pickle.dump(purchase_history, file)
-        # print("done______________")
+        print("done______________")
 
         logging.info("Data processing and model retraining completed.")
     except Exception as e:
         logging.error(f"An error occurred: {e}")
+

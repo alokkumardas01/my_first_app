@@ -564,3 +564,193 @@ KeyError: 'www xx yyy'
 2023-10-04 11:40:43,814 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=4
 2023-10-04 11:40:46,749 - INFO - Data processing and model retraining completed.
 2023-10-04 11:40:46,749 - INFO - Updating the Flask app...
+2023-10-04 20:29:57,840 - ERROR - Request Exception: HTTPConnectionPool(host='172.17.1.64', port=3000): Max retries exceeded with url: /api/getuserproductsearchhistory?page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029DF531AE48>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2023-10-04 20:33:49,011 - ERROR - Request Exception: HTTPConnectionPool(host='172.17.1.64', port=3000): Max retries exceeded with url: /api/getuserproductsearchhistory?page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018671D9AC88>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2023-10-04 20:36:13,287 - ERROR - An error occurred: 'searchInfo'
+2023-10-04 20:37:12,503 - ERROR - An error occurred: 'searchInfo'
+2023-10-04 20:37:33,646 - ERROR - Request Exception: HTTPConnectionPool(host='172.17.1.64', port=3000): Max retries exceeded with url: /api/getuserproductsearchhistory?page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D9281CED88>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2023-10-04 20:38:43,197 - ERROR - An error occurred: 'product_name'
+2023-10-04 20:40:04,497 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\../logs\\collected_data.json'
+2023-10-04 20:41:30,616 - ERROR - An error occurred: 'searchInfo'
+2023-10-04 20:41:52,729 - ERROR - An error occurred: 'searchInfo'
+2023-10-04 20:42:23,927 - ERROR - An error occurred: 'searchInfo'
+2023-10-04 20:50:55,233 - ERROR - An error occurred: 'searchInfo'
+2023-10-04 20:51:19,022 - ERROR - An error occurred: 'searchInfo'
+2023-10-04 20:52:51,779 - ERROR - An error occurred: Extra data: line 17 column 9 (char 1374)
+2023-10-04 21:02:25,085 - INFO - Data processing and model retraining completed.
+2023-10-04 21:03:44,276 - ERROR - An error occurred: list indices must be integers or slices, not str
+2023-10-04 21:04:40,195 - INFO - Data processing and model retraining completed.
+2023-10-04 21:05:01,473 - ERROR - Request Exception: HTTPConnectionPool(host='172.17.1.64', port=3000): Max retries exceeded with url: /api/getuserproductsearchhistory?page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C6EC645EC8>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2023-10-04 21:05:01,864 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-04 21:05:01,864 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-05 09:43:32,072 - INFO - Data processing and model retraining completed.
+2023-10-05 09:43:34,194 - INFO - Data collected from page 1
+2023-10-05 09:43:35,423 - INFO - Data collected from page 2
+2023-10-05 09:43:36,506 - INFO - Data collected from page 3
+2023-10-05 09:43:44,511 - INFO - Data collected from page 4
+2023-10-05 09:43:45,272 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=5
+2023-10-05 09:43:45,734 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-05 09:43:45,735 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-05 09:43:46,156 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=1
+2023-10-05 09:43:49,857 - INFO - Data processing and model retraining completed.
+2023-10-05 09:43:49,857 - INFO - Updating the Flask app...
+2023-10-05 10:53:31,835 - INFO - Data collected from page 1
+2023-10-05 10:53:32,963 - INFO - Data collected from page 2
+2023-10-05 10:53:34,108 - INFO - Data collected from page 3
+2023-10-05 10:53:42,952 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=4
+2023-10-05 10:55:28,937 - INFO - Data collected from page 1
+2023-10-05 10:57:09,034 - INFO - Data collected from page 1
+2023-10-05 10:57:10,225 - INFO - Data collected from page 2
+2023-10-05 10:57:11,414 - INFO - Data collected from page 3
+2023-10-05 10:57:19,111 - INFO - Data collected from page 4
+2023-10-05 10:57:20,358 - INFO - Data collected from page 5
+2023-10-05 10:57:20,930 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=6
+2023-10-05 10:59:39,286 - INFO - Data collected from page 1
+2023-10-05 10:59:40,455 - INFO - Data collected from page 2
+2023-10-05 10:59:41,571 - INFO - Data collected from page 3
+2023-10-05 10:59:49,413 - INFO - Data collected from page 4
+2023-10-05 10:59:50,204 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=5
+2023-10-05 15:15:39,210 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:15:40,768 - INFO - Data collected from page 1
+2023-10-05 15:15:41,922 - INFO - Data collected from page 2
+2023-10-05 15:15:43,082 - INFO - Data collected from page 3
+2023-10-05 15:15:50,417 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=4
+2023-10-05 15:15:50,822 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-05 15:15:50,822 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-05 15:15:51,208 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=1
+2023-10-05 15:15:51,211 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:15:51,211 - INFO - Updating the Flask app...
+2023-10-05 15:20:29,175 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:20:30,966 - INFO - Data collected from page 1
+2023-10-05 15:20:32,482 - INFO - Data collected from page 2
+2023-10-05 15:20:33,958 - INFO - Data collected from page 3
+2023-10-05 15:20:57,022 - INFO - Data collected from page 4
+2023-10-05 15:21:35,297 - INFO - Data collected from page 5
+2023-10-05 15:21:36,295 - INFO - Data collected from page 6
+2023-10-05 15:21:37,266 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-05 15:21:37,266 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-05 15:21:38,412 - INFO - Data collected from page 1
+2023-10-05 15:21:43,044 - INFO - Data collected from page 2
+2023-10-05 15:21:45,270 - INFO - Data collected from page 3
+2023-10-05 15:21:46,467 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=4
+2023-10-05 15:21:46,477 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:21:46,477 - INFO - Updating the Flask app...
+2023-10-05 15:24:19,983 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:24:22,267 - INFO - Data collected from page 1
+2023-10-05 15:24:24,543 - INFO - Data collected from page 2
+2023-10-05 15:24:26,809 - INFO - Data collected from page 3
+2023-10-05 15:24:31,858 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=4
+2023-10-05 15:24:32,166 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-05 15:24:32,167 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-05 15:24:32,528 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=1
+2023-10-05 15:24:32,529 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:24:32,529 - INFO - Updating the Flask app...
+2023-10-05 15:25:14,558 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:25:16,096 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=1
+2023-10-05 15:25:16,360 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-05 15:25:16,360 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-05 15:25:17,735 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=1
+2023-10-05 15:25:17,737 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:25:17,737 - INFO - Updating the Flask app...
+2023-10-05 15:25:35,152 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:25:37,799 - INFO - Data collected from page 1
+2023-10-05 15:25:40,105 - INFO - Data collected from page 2
+2023-10-05 15:25:42,412 - INFO - Data collected from page 3
+2023-10-05 15:25:47,483 - INFO - Data collected from page 4
+2023-10-05 15:25:49,483 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=5
+2023-10-05 15:25:49,739 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-05 15:25:49,739 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-05 15:25:51,110 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=1
+2023-10-05 15:25:51,112 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:25:51,112 - INFO - Updating the Flask app...
+2023-10-05 15:26:16,674 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:26:21,246 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=1
+2023-10-05 15:26:21,491 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-05 15:26:21,491 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-05 15:26:25,903 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=1
+2023-10-05 15:26:25,905 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:26:25,905 - INFO - Updating the Flask app...
+2023-10-05 15:26:54,450 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:27:00,722 - INFO - Data collected from page 1
+2023-10-05 15:27:06,026 - INFO - Data collected from page 2
+2023-10-05 15:27:11,566 - INFO - Data collected from page 3
+2023-10-05 15:27:16,771 - INFO - Data collected from page 4
+2023-10-05 15:27:22,082 - INFO - Data collected from page 5
+2023-10-05 15:27:27,213 - INFO - Data collected from page 6
+2023-10-05 15:27:31,841 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-05 15:27:31,841 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-05 15:27:37,212 - INFO - Data collected from page 1
+2023-10-05 15:27:42,403 - INFO - Data collected from page 2
+2023-10-05 15:27:47,719 - INFO - Data collected from page 3
+2023-10-05 15:27:53,083 - INFO - Data collected from page 4
+2023-10-05 15:27:58,388 - INFO - Data collected from page 5
+2023-10-05 15:28:03,405 - INFO - Data collected from page 6
+2023-10-05 15:28:07,762 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:28:07,762 - INFO - Updating the Flask app...
+2023-10-05 15:32:09,170 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:32:10,927 - INFO - Data collected from page 1
+2023-10-05 15:32:17,064 - INFO - Data collected from page 2
+2023-10-05 15:32:23,500 - INFO - Data collected from page 3
+2023-10-05 15:32:29,916 - INFO - Data collected from page 4
+2023-10-05 15:32:36,048 - INFO - Data collected from page 5
+2023-10-05 15:32:42,047 - INFO - Data collected from page 6
+2023-10-05 15:32:47,662 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-05 15:32:47,662 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-05 15:32:48,818 - INFO - Data collected from page 1
+2023-10-05 15:32:55,169 - INFO - Data collected from page 2
+2023-10-05 15:33:01,383 - INFO - Data collected from page 3
+2023-10-05 15:33:07,542 - INFO - Data collected from page 4
+2023-10-05 15:33:13,735 - INFO - Data collected from page 5
+2023-10-05 15:33:19,624 - INFO - Data collected from page 6
+2023-10-05 15:33:24,978 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:33:24,978 - INFO - Updating the Flask app...
+2023-10-05 15:38:46,049 - ERROR - Request Exception: HTTPConnectionPool(host='172.17.1.64', port=3000): Max retries exceeded with url: /api/getuserproductsearchhistory?page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028E734EA308>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2023-10-05 15:38:46,058 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:38:46,059 - INFO - Updating the Flask app...
+2023-10-05 15:43:47,886 - INFO - Data collected from page 1
+2023-10-05 15:43:54,021 - INFO - Data collected from page 2
+2023-10-05 15:44:00,161 - INFO - Data collected from page 3
+2023-10-05 15:44:06,421 - INFO - Data collected from page 4
+2023-10-05 15:44:12,559 - INFO - Data collected from page 5
+2023-10-05 15:44:18,226 - INFO - Data collected from page 6
+2023-10-05 15:44:23,577 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:44:23,577 - INFO - Updating the Flask app...
+2023-10-05 15:49:25,241 - INFO - Data collected from page 1
+2023-10-05 15:49:31,647 - INFO - Data collected from page 2
+2023-10-05 15:49:37,791 - INFO - Data collected from page 3
+2023-10-05 15:49:43,942 - INFO - Data collected from page 4
+2023-10-05 15:49:50,023 - INFO - Data collected from page 5
+2023-10-05 15:49:55,648 - INFO - Data collected from page 6
+2023-10-05 15:50:00,997 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:50:00,998 - INFO - Updating the Flask app...
+2023-10-05 15:55:11,708 - ERROR - An error occurred: [Errno 2] No such file or directory: 'D:\\POC_WEB_3.0\\Development\\3.0.1\\training\\collected_data.json'
+2023-10-05 15:57:23,700 - INFO - Data processing and model retraining completed.
+2023-10-05 16:03:56,086 - INFO - Data processing and model retraining completed.
+2023-10-05 16:05:34,087 - INFO - Data processing and model retraining completed.
+2023-10-05 16:05:36,266 - INFO - Data collected from page 1
+2023-10-05 16:05:42,458 - INFO - Data collected from page 2
+2023-10-05 16:05:48,539 - INFO - Data collected from page 3
+2023-10-05 16:05:54,842 - INFO - Data collected from page 4
+2023-10-05 16:06:00,995 - INFO - Data collected from page 5
+2023-10-05 16:06:06,870 - INFO - Data collected from page 6
+2023-10-05 16:06:12,634 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-05 16:06:12,634 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-05 16:06:13,902 - INFO - Data collected from page 1
+2023-10-05 16:06:20,273 - INFO - Data collected from page 2
+2023-10-05 16:06:26,665 - INFO - Data collected from page 3
+2023-10-05 16:06:32,788 - INFO - Data collected from page 4
+2023-10-05 16:06:38,925 - INFO - Data collected from page 5
+2023-10-05 16:06:44,578 - INFO - Data collected from page 6
+2023-10-05 16:06:52,036 - INFO - Data processing and model retraining completed.
+2023-10-05 16:06:52,036 - INFO - Updating the Flask app...
