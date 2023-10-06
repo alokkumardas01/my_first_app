@@ -32,7 +32,6 @@ with open(purchase_history_pickle_directory, 'rb') as file:
 purchase_history_new=purchase_history['product_name']
 
 def find_related_customers(product_name):
-    # print("wow-----",product_name)
     # Check if the specified product_name is in purchase_history
     if product_name not in purchase_history['product_name'].unique():
         # Find a similar product_name based on fuzzy matching
@@ -84,16 +83,26 @@ def parse_datetime(datetime_str):
 def find_related_products_for_email(customer_email,product_list,target_product_name):
     # Create an empty set to store related products
     related_products_set = set()
-
     # Iterate through the products purchased by the customer
-    for product_name in product_list:
-        if product_name != target_product_name:  # Exclude the target product itself
-            # Get the correlations for the current product
-            correlations = find_related_customers(product_name)
+    if len(product_list) > 1:
+        for product_name in product_list:
+            if product_name != target_product_name:  # Exclude the target product itself
+                # Get the correlations for the current product
+                correlations = find_related_customers(product_name)
 
+                # Remove the customer's own product from the correlations
+                correlations = correlations.drop(customer_email, errors='ignore')
+
+                # Get the top related products for the current product (excluding the target product)
+                top_related_products = correlations.head(10).index.tolist()
+
+                # Extend the set of related products
+                related_products_set.update(top_related_products)
+    else:
+        for product_name in product_list:
+            correlations = find_related_customers(product_name)
             # Remove the customer's own product from the correlations
             correlations = correlations.drop(customer_email, errors='ignore')
-
             # Get the top related products for the current product (excluding the target product)
             top_related_products = correlations.head(10).index.tolist()
 
@@ -153,7 +162,3 @@ def get_recommendations():
 
     # Return the recommendations as JSON response
     return jsonify(top_similar_products)
-
-
-# if __name__ == '__main__':
-#     app.run(debug=True)
