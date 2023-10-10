@@ -138,7 +138,7 @@ def find_most_similar_products(related_products_list,target_product_name, top_n=
 
 
 # Define the API endpoint for recommendations
-@app.route('/get_recommendations', methods=['GET'])
+@app.route('/get_recommendations',methods=['GET', 'POST'])
 def get_recommendations():
     # Parse the input JSON data from the request
     input_data = request.json
