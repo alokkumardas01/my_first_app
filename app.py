@@ -183,16 +183,16 @@ def get_recommendations():
     all_products_logs = purchase_history['product_name'].unique()
     all_product_vectors = tfidf_vectorizer.transform(all_products_logs)
 
-    # Calculate cosine similarity between the target product and all products
-    target_product_vector = tfidf_vectorizer.transform([target_product_clean])
-    cosine_similarity_scores = cosine_similarity(target_product_vector, all_product_vectors)
+    # # Calculate cosine similarity between the target product and all products
+    # target_product_vector = tfidf_vectorizer.transform([target_product_clean])
+    # cosine_similarity_scores = cosine_similarity(target_product_vector, all_product_vectors)
 
-    # Get the indices of the top 5 most similar products
-    top_cosine_tfidf_indices = cosine_similarity_scores.argsort()[0][::-1][1:6]
+    # # Get the indices of the top 5 most similar products
+    # top_cosine_tfidf_indices = cosine_similarity_scores.argsort()[0][::-1][1:6]
     
-    # Get the product names corresponding to the top indices
-    top_cosine_tfidf_similar_products = [all_products[i] for i in top_cosine_tfidf_indices]
-    return jsonify(top_cosine_tfidf_similar_products)
+    # # Get the product names corresponding to the top indices
+    # top_cosine_tfidf_similar_products = [all_products[i] for i in top_cosine_tfidf_indices]
+    return all_product_vectors
 
 
 # if __name__ == '__main__':
