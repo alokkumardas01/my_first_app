@@ -159,42 +159,32 @@ def find_most_similar_products(related_products_list,target_product_name, top_n=
 
 
 # Define the API endpoint for recommendations
-@app.route('/get_recommendations', methods=['GET','POST'])
+# Define the API endpoint for recommendations
+@app.route('/get_recommendations', methods=['GET'])
 def get_recommendations():
     # Parse the input JSON data from the request
     input_data = request.json
+    # product_list = extract_product_names(input_data)
     customer_email_to_find_related_products = input_data["data"]["customerEmailId"]
 
+    # Access the "searchInfo" list from the JSON data
     search_info = input_data["data"]["searchInfo"]
+
+    # Sort the list of product information dictionaries by "searchDate" using the parse_datetime function
     sorted_search_info = sorted(search_info, key=lambda x: parse_datetime(x["searchDate"]), reverse=True)
+
+    # Use the latest product name as the target_product_name
     target_product_name = sorted_search_info[0]["product_name"]
-    target_product_desc = sorted_search_info[0]["description"]
-    target_product_log = target_product_name + target_product_desc
-    target_product_clean=preprocess_text(target_product_log)
+
+    # Extract product names from the input data
     product_list = extract_product_names(input_data)
-    related_products = find_related_products_for_email(customer_email_to_find_related_products, product_list, target_product_name)
 
-    # Calculate the TF-IDF vectors for all products
-    all_products = purchase_history['product_name'].unique()
-    all_products_logs = purchase_history['product_name'].unique()
-    all_product_vectors = tfidf_vectorizer.transform(all_products_logs)
+    related_products = find_related_products_for_email(customer_email_to_find_related_products,product_list,target_product_name)
+    top_similar_products = find_most_similar_products(related_products,target_product_name, top_n=10)
 
-    # Calculate cosine similarity between the target product and all products
-    target_product_vector = tfidf_vectorizer.transform([target_product_clean])
-    cosine_similarity_scores = cosine_similarity(target_product_vector, all_product_vectors)
+    # Return the recommendations as JSON response
+    return jsonify(top_similar_products)
 
-    # Get the indices of the top 5 most similar products
-    top_cosine_tfidf_indices = cosine_similarity_scores.argsort()[0][::-1][1:6]
-    
-    # Get the product names corresponding to the top indices
-    top_cosine_tfidf_similar_products = [all_products[i] for i in top_cosine_tfidf_indices]
-
-    # Return both sets of recommendations as JSON response
-    # return jsonify({
-    #     "top_suggested_products": related_products,
-    #     "top_recommended_products": top_cosine_tfidf_similar_products
-    # })
-    return top_cosine_tfidf_similar_products
 
 # if __name__ == '__main__':
 #     app.run(debug=True)
