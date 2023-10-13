@@ -754,3 +754,535 @@ KeyError: 'www xx yyy'
 2023-10-05 16:06:44,578 - INFO - Data collected from page 6
 2023-10-05 16:06:52,036 - INFO - Data processing and model retraining completed.
 2023-10-05 16:06:52,036 - INFO - Updating the Flask app...
+2023-10-06 15:03:23,623 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-06 15:03:23,665 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-06 15:03:23,676 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-06 15:03:26,375 - WARNING -  * Debugger is active!
+2023-10-06 15:03:26,381 - INFO -  * Debugger PIN: 723-088-456
+2023-10-06 15:03:38,213 - INFO - 127.0.0.1 - - [06/Oct/2023 15:03:38] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-06 15:04:06,105 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\schedule\\__init__.py', reloading
+2023-10-06 15:04:07,370 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-06 15:04:10,217 - WARNING -  * Debugger is active!
+2023-10-06 15:04:10,237 - INFO -  * Debugger PIN: 723-088-456
+2023-10-06 15:04:25,709 - INFO -  * Detected change in 'D:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-06 15:04:25,710 - INFO -  * Detected change in 'D:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-06 15:04:25,710 - INFO -  * Detected change in 'D:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-06 15:04:25,711 - INFO -  * Detected change in 'D:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-06 15:04:26,546 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-06 15:04:29,858 - WARNING -  * Debugger is active!
+2023-10-06 15:04:29,863 - INFO -  * Debugger PIN: 723-088-456
+2023-10-06 15:04:39,527 - INFO - 127.0.0.1 - - [06/Oct/2023 15:04:39] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-06 15:05:36,789 - INFO - 127.0.0.1 - - [06/Oct/2023 15:05:36] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-06 15:11:49,499 - INFO -  * Detected change in 'D:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-06 15:11:49,500 - INFO -  * Detected change in 'D:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-06 15:11:49,501 - INFO -  * Detected change in 'D:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-06 15:11:50,553 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-06 15:12:20,762 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-06 15:12:20,763 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-06 15:12:20,775 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-06 15:12:23,583 - WARNING -  * Debugger is active!
+2023-10-06 15:12:23,587 - INFO -  * Debugger PIN: 723-088-456
+2023-10-06 15:15:42,194 - INFO -  * Detected change in 'C:\\Program Files\\Python310\\Lib\\os.py', reloading
+2023-10-06 15:15:43,311 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-06 15:15:47,137 - WARNING -  * Debugger is active!
+2023-10-06 15:15:47,144 - INFO -  * Debugger PIN: 723-088-456
+2023-10-06 15:15:53,026 - INFO -  * Detected change in 'D:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-06 15:15:53,027 - INFO -  * Detected change in 'D:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-06 15:15:53,027 - INFO -  * Detected change in 'D:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-06 15:15:53,027 - INFO -  * Detected change in 'D:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-06 15:15:54,309 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-06 15:16:03,168 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-06 15:16:03,168 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-06 15:16:03,179 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-06 15:16:06,220 - WARNING -  * Debugger is active!
+2023-10-06 15:16:06,224 - INFO -  * Debugger PIN: 723-088-456
+2023-10-06 15:16:10,210 - INFO - 127.0.0.1 - - [06/Oct/2023 15:16:10] "[31m[1mGET /get_recommendations HTTP/1.1[0m" 405 -
+2023-10-06 15:16:26,454 - INFO - 127.0.0.1 - - [06/Oct/2023 15:16:26] "[31m[1mGET /get_recommendations HTTP/1.1[0m" 405 -
+2023-10-06 15:16:33,988 - INFO -  * Detected change in 'D:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-06 15:16:33,988 - INFO -  * Detected change in 'D:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-06 15:16:33,989 - INFO -  * Detected change in 'D:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-06 15:16:33,989 - INFO -  * Detected change in 'D:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-06 15:16:35,102 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-06 15:16:38,363 - WARNING -  * Debugger is active!
+2023-10-06 15:16:38,368 - INFO -  * Debugger PIN: 723-088-456
+2023-10-06 15:16:59,055 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-06 15:16:59,055 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-06 15:16:59,070 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-06 15:17:02,419 - WARNING -  * Debugger is active!
+2023-10-06 15:17:02,431 - INFO -  * Debugger PIN: 723-088-456
+2023-10-06 15:17:06,359 - INFO - Data processing and model retraining completed.
+2023-10-06 15:17:08,058 - INFO - Data collected from page 1
+2023-10-06 15:17:14,216 - INFO - Data collected from page 2
+2023-10-06 15:17:53,251 - INFO - Data collected from page 3
+2023-10-06 15:17:59,465 - INFO - Data collected from page 4
+2023-10-06 15:18:05,719 - INFO - Data collected from page 5
+2023-10-06 15:18:11,401 - INFO - Data collected from page 6
+2023-10-06 15:18:16,910 - INFO - 127.0.0.1 - - [06/Oct/2023 15:18:16] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-06 15:18:53,281 - INFO - Data processing and model retraining completed.
+2023-10-06 15:18:54,332 - INFO - Data collected from page 1
+2023-10-06 15:19:00,868 - INFO - Data collected from page 2
+2023-10-06 15:19:07,252 - INFO - Data collected from page 3
+2023-10-06 15:19:13,534 - INFO - Data collected from page 4
+2023-10-06 15:19:20,467 - INFO - Data collected from page 5
+2023-10-06 15:19:59,449 - INFO - Data processing and model retraining completed.
+2023-10-06 15:20:01,170 - INFO - Data collected from page 1
+2023-10-06 15:20:07,392 - INFO - Data collected from page 2
+2023-10-06 15:20:13,630 - INFO - Data collected from page 3
+2023-10-06 15:20:20,060 - INFO - Data collected from page 4
+2023-10-06 15:20:26,190 - INFO - Data collected from page 5
+2023-10-06 15:20:31,818 - INFO - Data collected from page 6
+2023-10-06 15:20:37,199 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-06 15:20:37,199 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-06 15:20:37,216 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-06 15:20:44,808 - INFO - Data processing and model retraining completed.
+2023-10-06 15:20:45,876 - INFO - Data collected from page 1
+2023-10-06 15:20:52,050 - INFO - Data collected from page 2
+2023-10-06 15:53:51,218 - INFO - Running data collection...
+2023-10-06 15:53:52,838 - INFO - Data collected from page 1
+2023-10-06 15:53:59,860 - INFO - Data collected from page 2
+2023-10-06 15:54:06,306 - INFO - Data collected from page 3
+2023-10-06 15:54:12,445 - INFO - Data collected from page 4
+2023-10-06 15:54:18,559 - INFO - Data collected from page 5
+2023-10-06 15:54:24,218 - INFO - Data collected from page 6
+2023-10-06 15:54:29,581 - INFO - Running data processing...
+2023-10-06 15:54:33,998 - INFO - Data processing and model retraining completed.
+2023-10-06 15:59:34,797 - INFO - Running data collection...
+2023-10-06 15:59:36,445 - INFO - Data collected from page 1
+2023-10-06 15:59:42,829 - INFO - Data collected from page 2
+2023-10-06 15:59:49,253 - INFO - Data collected from page 3
+2023-10-06 15:59:55,636 - INFO - Data collected from page 4
+2023-10-06 16:00:02,078 - INFO - Data collected from page 5
+2023-10-06 16:00:07,730 - INFO - Data collected from page 6
+2023-10-06 16:00:13,099 - INFO - Running data processing...
+2023-10-06 16:00:15,004 - INFO - Data processing and model retraining completed.
+2023-10-06 16:12:31,039 - INFO - Running data collection...
+2023-10-06 16:12:32,788 - INFO - Data collected from page 1
+2023-10-06 16:12:38,945 - INFO - Data collected from page 2
+2023-10-06 16:12:45,146 - INFO - Data collected from page 3
+2023-10-06 16:12:51,321 - INFO - Data collected from page 4
+2023-10-06 16:12:57,705 - INFO - Data collected from page 5
+2023-10-06 16:13:03,361 - INFO - Data collected from page 6
+2023-10-06 16:13:08,729 - INFO - Running data processing...
+2023-10-06 16:13:11,589 - INFO - Data processing and model retraining completed.
+2023-10-13 12:44:12,636 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-13 12:44:12,676 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-13 12:44:12,698 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 12:44:15,606 - WARNING -  * Debugger is active!
+2023-10-13 12:44:15,610 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 12:44:28,281 - INFO - 127.0.0.1 - - [13/Oct/2023 12:44:28] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 12:44:35,815 - INFO - 127.0.0.1 - - [13/Oct/2023 12:44:35] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 12:45:52,965 - INFO - 127.0.0.1 - - [13/Oct/2023 12:45:52] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 12:46:53,690 - INFO - 127.0.0.1 - - [13/Oct/2023 12:46:53] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 12:51:38,835 - INFO - 127.0.0.1 - - [13/Oct/2023 12:51:38] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 12:52:16,829 - INFO - 127.0.0.1 - - [13/Oct/2023 12:52:16] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 12:52:41,875 - INFO - 127.0.0.1 - - [13/Oct/2023 12:52:41] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 12:53:13,232 - INFO - 127.0.0.1 - - [13/Oct/2023 12:53:13] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 12:53:20,792 - INFO - 127.0.0.1 - - [13/Oct/2023 12:53:20] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 12:53:29,608 - INFO - 127.0.0.1 - - [13/Oct/2023 12:53:29] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 12:55:02,754 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\numpy\\_typing\\_generic_alias.py', reloading
+2023-10-13 12:55:04,136 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 12:55:07,065 - WARNING -  * Debugger is active!
+2023-10-13 12:55:07,069 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 12:55:52,131 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 12:55:52,132 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 12:55:52,132 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 12:55:52,917 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 12:56:01,191 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-13 12:56:01,191 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-13 12:56:01,203 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 12:56:06,116 - WARNING -  * Debugger is active!
+2023-10-13 12:56:06,124 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 12:56:06,415 - INFO - 127.0.0.1 - - [13/Oct/2023 12:56:06] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 12:57:10,549 - INFO - 127.0.0.1 - - [13/Oct/2023 12:57:10] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 12:57:47,904 - INFO - 127.0.0.1 - - [13/Oct/2023 12:57:47] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 12:59:20,636 - INFO - 127.0.0.1 - - [13/Oct/2023 12:59:20] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 13:01:52,200 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 13:01:52,201 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 13:01:52,202 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 13:01:52,202 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 13:01:52,926 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 13:01:53,310 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 13:02:04,977 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-13 13:02:04,977 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-13 13:02:04,994 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 13:02:08,226 - WARNING -  * Debugger is active!
+2023-10-13 13:02:08,234 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 13:02:09,570 - INFO - 127.0.0.1 - - [13/Oct/2023 13:02:09] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 13:13:34,525 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\Crypto\\SelfTest\\Hash\\test_MD4.py', reloading
+2023-10-13 13:13:35,342 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 13:13:43,466 - WARNING -  * Debugger is active!
+2023-10-13 13:13:43,476 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:00:21,849 - INFO - 127.0.0.1 - - [13/Oct/2023 14:00:21] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:00:24,036 - INFO - 127.0.0.1 - - [13/Oct/2023 14:00:24] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:00:49,300 - INFO - 127.0.0.1 - - [13/Oct/2023 14:00:49] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:01:17,264 - INFO - 127.0.0.1 - - [13/Oct/2023 14:01:17] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:03:05,839 - INFO - 127.0.0.1 - - [13/Oct/2023 14:03:05] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:04:01,534 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:04:01,535 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:04:01,536 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:04:02,031 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:04:02,915 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:04:08,039 - WARNING -  * Debugger is active!
+2023-10-13 14:04:08,045 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:04:08,716 - INFO - 127.0.0.1 - - [13/Oct/2023 14:04:08] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:05:45,205 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\__init__.py', reloading
+2023-10-13 14:05:45,317 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\collocations.py', reloading
+2023-10-13 14:05:45,343 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\featstruct.py', reloading
+2023-10-13 14:05:45,433 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\grammar.py', reloading
+2023-10-13 14:05:45,467 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\probability.py', reloading
+2023-10-13 14:05:45,515 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\text.py', reloading
+2023-10-13 14:05:45,544 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\util.py', reloading
+2023-10-13 14:05:45,594 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\collections.py', reloading
+2023-10-13 14:05:45,614 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\jsontags.py', reloading
+2023-10-13 14:05:45,635 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\chunk\\__init__.py', reloading
+2023-10-13 14:05:45,650 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\classify\\__init__.py', reloading
+2023-10-13 14:05:45,665 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\inference\\__init__.py', reloading
+2023-10-13 14:05:45,678 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\metrics\\__init__.py', reloading
+2023-10-13 14:05:45,693 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\parse\\__init__.py', reloading
+2023-10-13 14:05:45,712 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\tag\\__init__.py', reloading
+2023-10-13 14:05:45,742 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\tokenize\\__init__.py', reloading
+2023-10-13 14:05:45,766 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\translate\\__init__.py', reloading
+2023-10-13 14:05:45,787 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\tree\\__init__.py', reloading
+2023-10-13 14:05:45,803 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\sem\\__init__.py', reloading
+2023-10-13 14:05:45,820 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\stem\\__init__.py', reloading
+2023-10-13 14:05:46,382 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:05:49,369 - WARNING -  * Debugger is active!
+2023-10-13 14:05:49,375 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:06:27,550 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\__init__.py', reloading
+2023-10-13 14:06:27,578 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\__init__.py', reloading
+2023-10-13 14:06:27,614 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\plaintext.py', reloading
+2023-10-13 14:06:27,626 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\api.py', reloading
+2023-10-13 14:06:27,639 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\util.py', reloading
+2023-10-13 14:06:27,681 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\tagged.py', reloading
+2023-10-13 14:06:27,693 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\cmudict.py', reloading
+2023-10-13 14:06:27,708 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\conll.py', reloading
+2023-10-13 14:06:27,727 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\chunked.py', reloading
+2023-10-13 14:06:27,739 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\wordlist.py', reloading
+2023-10-13 14:06:27,753 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\xmldocs.py', reloading
+2023-10-13 14:06:27,765 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\ppattach.py', reloading
+2023-10-13 14:06:27,776 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\senseval.py', reloading
+2023-10-13 14:06:27,788 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\ieer.py', reloading
+2023-10-13 14:06:27,799 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\sinica_treebank.py', reloading
+2023-10-13 14:06:27,814 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\bracket_parse.py', reloading
+2023-10-13 14:06:27,827 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\indian.py', reloading
+2023-10-13 14:06:27,840 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\toolbox.py', reloading
+2023-10-13 14:06:27,853 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\timit.py', reloading
+2023-10-13 14:06:27,873 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\ycoe.py', reloading
+2023-10-13 14:06:27,888 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\rte.py', reloading
+2023-10-13 14:06:27,898 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\string_category.py', reloading
+2023-10-13 14:06:27,910 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\propbank.py', reloading
+2023-10-13 14:06:27,928 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\verbnet.py', reloading
+2023-10-13 14:06:27,945 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\bnc.py', reloading
+2023-10-13 14:06:27,956 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\nps_chat.py', reloading
+2023-10-13 14:06:27,971 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\wordnet.py', reloading
+2023-10-13 14:06:27,996 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\switchboard.py', reloading
+2023-10-13 14:06:28,008 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\dependency.py', reloading
+2023-10-13 14:06:28,020 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\nombank.py', reloading
+2023-10-13 14:06:28,035 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\ipipan.py', reloading
+2023-10-13 14:06:28,048 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\pl196x.py', reloading
+2023-10-13 14:06:28,061 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\knbc.py', reloading
+2023-10-13 14:06:28,074 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\chasen.py', reloading
+2023-10-13 14:06:28,089 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\childes.py', reloading
+2023-10-13 14:06:28,110 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\aligned.py', reloading
+2023-10-13 14:06:28,120 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\lin.py', reloading
+2023-10-13 14:06:28,130 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\semcor.py', reloading
+2023-10-13 14:06:28,149 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\framenet.py', reloading
+2023-10-13 14:06:28,209 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\udhr.py', reloading
+2023-10-13 14:06:28,223 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\sentiwordnet.py', reloading
+2023-10-13 14:06:28,240 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\twitter.py', reloading
+2023-10-13 14:06:28,258 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\nkjp.py', reloading
+2023-10-13 14:06:28,298 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\crubadan.py', reloading
+2023-10-13 14:06:28,314 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\mte.py', reloading
+2023-10-13 14:06:28,326 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\reviews.py', reloading
+2023-10-13 14:06:28,340 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\opinion_lexicon.py', reloading
+2023-10-13 14:06:28,353 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\pros_cons.py', reloading
+2023-10-13 14:06:28,365 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\categorized_sents.py', reloading
+2023-10-13 14:06:28,377 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\comparative_sents.py', reloading
+2023-10-13 14:06:28,395 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\panlex_lite.py', reloading
+2023-10-13 14:06:28,419 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\reader\\panlex_swadesh.py', reloading
+2023-10-13 14:06:28,775 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:06:31,929 - WARNING -  * Debugger is active!
+2023-10-13 14:06:31,934 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:06:51,238 - INFO -  * Detected change in 'C:\\Program Files\\Python310\\Lib\\re.py', reloading
+2023-10-13 14:06:52,628 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:06:55,695 - WARNING -  * Debugger is active!
+2023-10-13 14:06:55,700 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:07:25,849 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\corpus\\util.py', reloading
+2023-10-13 14:07:25,883 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\data.py', reloading
+2023-10-13 14:07:25,988 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\tokenize\\destructive.py', reloading
+2023-10-13 14:07:26,004 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\tokenize\\api.py', reloading
+2023-10-13 14:07:26,080 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\compat.py', reloading
+2023-10-13 14:07:27,067 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:07:30,703 - WARNING -  * Debugger is active!
+2023-10-13 14:07:30,707 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:07:50,248 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:07:50,249 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:07:50,249 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:07:50,249 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:07:50,420 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:07:51,103 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:07:54,105 - WARNING -  * Debugger is active!
+2023-10-13 14:07:54,111 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:08:01,061 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\nltk\\sem\\evaluate.py', reloading
+2023-10-13 14:08:01,434 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:08:04,574 - WARNING -  * Debugger is active!
+2023-10-13 14:08:04,578 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:08:14,197 - INFO - 127.0.0.1 - - [13/Oct/2023 14:08:14] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:08:33,284 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:08:33,285 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:08:33,285 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:08:33,286 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:08:33,925 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:08:34,472 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:08:37,544 - WARNING -  * Debugger is active!
+2023-10-13 14:08:37,548 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:08:43,297 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-13 14:08:43,297 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-13 14:08:43,311 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:08:47,062 - WARNING -  * Debugger is active!
+2023-10-13 14:08:47,069 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:08:48,256 - INFO - 127.0.0.1 - - [13/Oct/2023 14:08:48] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:09:50,103 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:09:50,103 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:09:50,104 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:09:50,105 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:09:50,623 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:09:51,233 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:09:54,866 - WARNING -  * Debugger is active!
+2023-10-13 14:09:54,878 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:09:56,609 - INFO - 127.0.0.1 - - [13/Oct/2023 14:09:56] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:13:04,896 - INFO - 127.0.0.1 - - [13/Oct/2023 14:13:04] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:13:54,122 - INFO - 127.0.0.1 - - [13/Oct/2023 14:13:54] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:14:13,193 - INFO - 127.0.0.1 - - [13/Oct/2023 14:14:13] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:14:51,868 - INFO - 127.0.0.1 - - [13/Oct/2023 14:14:51] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:15:34,465 - INFO - 127.0.0.1 - - [13/Oct/2023 14:15:34] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:15:53,943 - INFO - 127.0.0.1 - - [13/Oct/2023 14:15:53] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:16:03,833 - INFO - 127.0.0.1 - - [13/Oct/2023 14:16:03] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:17:45,771 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\pip\\_vendor\\pyparsing\\core.py', reloading
+2023-10-13 14:17:46,026 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading
+2023-10-13 14:17:47,379 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:17:57,719 - WARNING -  * Debugger is active!
+2023-10-13 14:17:57,732 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:22:05,039 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\sklearn\\metrics\\pairwise.py', reloading
+2023-10-13 14:22:05,717 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:22:08,785 - WARNING -  * Debugger is active!
+2023-10-13 14:22:08,789 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:22:12,986 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:22:12,987 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:22:12,987 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:22:12,987 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:22:13,552 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:22:17,123 - WARNING -  * Debugger is active!
+2023-10-13 14:22:17,137 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:22:22,568 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\flask\\app.py', reloading
+2023-10-13 14:22:22,588 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\sklearn\\utils\\validation.py', reloading
+2023-10-13 14:22:22,601 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\sklearn\\utils\\_array_api.py', reloading
+2023-10-13 14:22:22,624 - INFO - 127.0.0.1 - - [13/Oct/2023 14:22:22] "[35m[1mGET /get_recommendations HTTP/1.1[0m" 500 -
+2023-10-13 14:22:25,103 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:22:30,219 - WARNING -  * Debugger is active!
+2023-10-13 14:22:30,225 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:28:35,533 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:28:35,533 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:28:35,534 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:28:35,534 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:28:36,341 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:28:39,971 - WARNING -  * Debugger is active!
+2023-10-13 14:28:39,975 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:28:41,290 - INFO - 127.0.0.1 - - [13/Oct/2023 14:28:41] "[35m[1mGET /get_recommendations HTTP/1.1[0m" 500 -
+2023-10-13 14:28:51,531 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:28:51,532 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:28:51,532 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:28:51,619 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:28:52,879 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:28:56,355 - WARNING -  * Debugger is active!
+2023-10-13 14:28:56,360 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:28:57,512 - INFO - 127.0.0.1 - - [13/Oct/2023 14:28:57] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:29:25,789 - INFO - 127.0.0.1 - - [13/Oct/2023 14:29:25] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:29:56,596 - INFO - 127.0.0.1 - - [13/Oct/2023 14:29:56] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:30:16,273 - INFO - 127.0.0.1 - - [13/Oct/2023 14:30:16] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:30:32,438 - INFO - 127.0.0.1 - - [13/Oct/2023 14:30:32] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:30:46,687 - INFO - 127.0.0.1 - - [13/Oct/2023 14:30:46] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:31:54,345 - INFO - 127.0.0.1 - - [13/Oct/2023 14:31:54] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:32:49,293 - INFO - 127.0.0.1 - - [13/Oct/2023 14:32:49] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:33:44,694 - INFO - 127.0.0.1 - - [13/Oct/2023 14:33:44] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:35:04,104 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\pandas\\core\\frame.py', reloading
+2023-10-13 14:35:04,508 - INFO -  * Detected change in 'C:\\Users\\alokkumar.das\\AppData\\Roaming\\Python\\Python310\\site-packages\\pandas\\core\\arraylike.py', reloading
+2023-10-13 14:35:05,802 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:35:09,344 - WARNING -  * Debugger is active!
+2023-10-13 14:35:09,352 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:35:26,019 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\training\\training.py', reloading
+2023-10-13 14:35:26,028 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\training\\training.py', reloading
+2023-10-13 14:35:26,029 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\training\\training.py', reloading
+2023-10-13 14:35:26,030 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\training\\training.py', reloading
+2023-10-13 14:35:26,659 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:35:32,588 - INFO - Data processing and model retraining completed.
+2023-10-13 14:35:32,746 - WARNING -  * Debugger is active!
+2023-10-13 14:35:32,751 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:35:56,545 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:35:56,546 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:35:56,546 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:35:56,547 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:35:56,667 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:35:57,686 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:36:23,528 - INFO - Data processing and model retraining completed.
+2023-10-13 14:36:23,657 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-13 14:36:23,657 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-13 14:36:23,669 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:36:29,478 - INFO - Data processing and model retraining completed.
+2023-10-13 14:36:29,607 - WARNING -  * Debugger is active!
+2023-10-13 14:36:29,611 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:36:34,465 - INFO - 127.0.0.1 - - [13/Oct/2023 14:36:34] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:37:31,749 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:37:31,749 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:37:31,749 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:37:32,018 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:37:32,769 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:37:40,092 - INFO - Data processing and model retraining completed.
+2023-10-13 14:37:40,239 - WARNING -  * Debugger is active!
+2023-10-13 14:37:40,245 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:37:40,425 - INFO - 127.0.0.1 - - [13/Oct/2023 14:37:40] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:38:08,472 - INFO - 127.0.0.1 - - [13/Oct/2023 14:38:08] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:38:36,845 - INFO - 127.0.0.1 - - [13/Oct/2023 14:38:36] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:39:26,478 - INFO - 127.0.0.1 - - [13/Oct/2023 14:39:26] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:39:47,641 - INFO - 127.0.0.1 - - [13/Oct/2023 14:39:47] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:40:19,869 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:40:19,871 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:40:19,871 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:40:19,871 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:40:21,654 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:40:28,412 - INFO - Data processing and model retraining completed.
+2023-10-13 14:40:28,541 - WARNING -  * Debugger is active!
+2023-10-13 14:40:28,546 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:40:28,703 - INFO - 127.0.0.1 - - [13/Oct/2023 14:40:28] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:41:16,476 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:41:16,477 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:41:16,478 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:41:16,478 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:41:17,669 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:41:23,619 - INFO - Data processing and model retraining completed.
+2023-10-13 14:41:23,771 - WARNING -  * Debugger is active!
+2023-10-13 14:41:23,776 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:41:23,937 - INFO - 127.0.0.1 - - [13/Oct/2023 14:41:23] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:41:53,087 - INFO - 127.0.0.1 - - [13/Oct/2023 14:41:53] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:43:06,881 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:43:06,882 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:43:06,882 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:43:06,882 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:43:07,560 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:43:15,638 - INFO - Data processing and model retraining completed.
+2023-10-13 14:43:15,813 - WARNING -  * Debugger is active!
+2023-10-13 14:43:15,820 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:43:16,006 - INFO - 127.0.0.1 - - [13/Oct/2023 14:43:16] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:45:18,137 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:45:18,138 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:45:18,138 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:45:18,139 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:45:19,570 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:45:25,385 - INFO - Data processing and model retraining completed.
+2023-10-13 14:45:25,530 - WARNING -  * Debugger is active!
+2023-10-13 14:45:25,538 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:45:25,745 - INFO - 127.0.0.1 - - [13/Oct/2023 14:45:25] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:46:12,187 - INFO - 127.0.0.1 - - [13/Oct/2023 14:46:12] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 14:58:23,302 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:58:23,302 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:58:23,302 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:58:23,302 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 14:58:24,007 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:58:31,091 - INFO - Data processing and model retraining completed.
+2023-10-13 14:58:31,325 - WARNING -  * Debugger is active!
+2023-10-13 14:58:31,330 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 14:58:38,110 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\training\\training.py', reloading
+2023-10-13 14:58:38,111 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\training\\training.py', reloading
+2023-10-13 14:58:38,111 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\training\\training.py', reloading
+2023-10-13 14:58:38,769 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 14:58:41,556 - WARNING -  * Debugger is active!
+2023-10-13 14:58:41,560 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 15:02:04,789 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-13 15:02:04,790 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-13 15:02:04,801 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 15:02:08,315 - WARNING -  * Debugger is active!
+2023-10-13 15:02:08,320 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 15:02:15,226 - INFO - 127.0.0.1 - - [13/Oct/2023 15:02:15] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 15:07:37,460 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 15:07:38,389 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 15:07:38,891 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 15:07:42,444 - WARNING -  * Debugger is active!
+2023-10-13 15:07:42,450 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 15:07:45,896 - INFO - 127.0.0.1 - - [13/Oct/2023 15:07:45] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 15:10:45,795 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 15:10:45,795 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 15:10:45,796 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 15:10:45,796 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 15:10:46,407 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 15:10:49,293 - WARNING -  * Debugger is active!
+2023-10-13 15:10:49,298 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 15:11:28,930 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 15:11:28,930 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 15:11:28,931 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 15:11:28,932 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.2\\app.py', reloading
+2023-10-13 15:11:29,271 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 15:15:57,524 - INFO - Running data collection...
+2023-10-13 15:15:59,713 - INFO - Data collected from page 1
+2023-10-13 15:16:06,604 - INFO - Data collected from page 2
+2023-10-13 15:17:12,253 - ERROR - Request Exception: 500 Server Error: Internal Server Error for url: http://172.17.1.64:3000/api/getuserproductsearchhistory?page=3
+2023-10-13 15:17:12,363 - INFO - Running data processing...
+2023-10-13 15:17:15,229 - INFO - Data processing and model retraining completed.
+2023-10-13 15:27:25,762 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-13 15:27:25,762 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-13 15:27:25,787 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 15:27:30,521 - WARNING -  * Debugger is active!
+2023-10-13 15:27:30,526 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 15:27:31,963 - INFO - 127.0.0.1 - - [13/Oct/2023 15:27:31] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 15:29:09,090 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.3\\app.py', reloading
+2023-10-13 15:29:09,092 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.3\\app.py', reloading
+2023-10-13 15:29:09,092 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.3\\app.py', reloading
+2023-10-13 15:29:09,093 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.3\\app.py', reloading
+2023-10-13 15:29:10,035 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 15:29:13,248 - WARNING -  * Debugger is active!
+2023-10-13 15:29:13,252 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 15:29:27,104 - INFO - 127.0.0.1 - - [13/Oct/2023 15:29:27] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 15:45:11,245 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-13 15:45:11,245 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-13 15:45:11,260 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 15:45:14,983 - WARNING -  * Debugger is active!
+2023-10-13 15:45:14,988 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 15:45:16,303 - INFO - 127.0.0.1 - - [13/Oct/2023 15:45:16] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 15:45:37,394 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.4\\app.py', reloading
+2023-10-13 15:45:37,395 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.4\\app.py', reloading
+2023-10-13 15:45:37,395 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.4\\app.py', reloading
+2023-10-13 15:45:37,395 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.4\\app.py', reloading
+2023-10-13 15:45:38,014 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 15:45:41,852 - WARNING -  * Debugger is active!
+2023-10-13 15:45:41,858 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 15:45:43,438 - INFO - 127.0.0.1 - - [13/Oct/2023 15:45:43] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 15:46:18,308 - INFO - 127.0.0.1 - - [13/Oct/2023 15:46:18] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 15:46:38,315 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.4\\app.py', reloading
+2023-10-13 15:46:38,316 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.4\\app.py', reloading
+2023-10-13 15:46:38,317 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.4\\app.py', reloading
+2023-10-13 15:46:38,317 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.4\\app.py', reloading
+2023-10-13 15:46:39,071 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 15:46:43,288 - WARNING -  * Debugger is active!
+2023-10-13 15:46:43,293 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 15:46:44,626 - INFO - 127.0.0.1 - - [13/Oct/2023 15:46:44] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 15:46:54,001 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.4\\app.py', reloading
+2023-10-13 15:46:54,002 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.4\\app.py', reloading
+2023-10-13 15:46:54,002 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.4\\app.py', reloading
+2023-10-13 15:46:54,003 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.4\\app.py', reloading
+2023-10-13 15:46:54,680 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 15:46:57,985 - WARNING -  * Debugger is active!
+2023-10-13 15:46:57,990 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 15:46:59,580 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.4\\app.py', reloading
+2023-10-13 15:47:01,490 - INFO -  * Restarting with watchdog (windowsapi)

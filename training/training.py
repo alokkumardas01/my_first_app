@@ -60,7 +60,7 @@ def process_data_and_save():
         data['logs'] = data['logs'].apply(preprocess_text)
 
         # Create a purchase history dataframe
-        purchase_history = data.groupby(['customerEmailId', 'product_name']).size().reset_index(name='purchase_count')
+        purchase_history = data.groupby(['customerEmailId', 'product_name','logs']).size().reset_index(name='purchase_count')
 
         # Define a TF-IDF vectorizer for product descriptions (assuming you have product descriptions in your data)
         tfidf_vectorizer = TfidfVectorizer()
@@ -81,4 +81,5 @@ def process_data_and_save():
         logging.info("Data processing and model retraining completed.")
     except Exception as e:
         logging.error(f"An error occurred: {e}")
+
 
