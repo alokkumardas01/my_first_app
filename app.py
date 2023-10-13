@@ -8,13 +8,16 @@ from fuzzywuzzy import fuzz
 from training.training import process_data_and_save
 from data_collection.data_collection_2 import collect_data_and_save
 import re
-import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 # Call the function to process data and save it
 # from training.training import process_data_and_save
 
-
+# Download NLTK resources (if not already downloaded)
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 app = Flask(__name__)
 
