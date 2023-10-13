@@ -2,9 +2,13 @@ import schedule
 import os
 import time
 import logging
-import time
+import traceback
+from threading import Thread
 from training.training import process_data_and_save
 from data_collection.data_collection_2 import collect_data_and_save
+from app import app
+
+import os
 
 # Get the directory of the current script
 script_directory = os.path.dirname(os.path.abspath(__file__))
@@ -22,15 +26,29 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-def job():
-    logging.info("Running data collection...")
-    collect_data_and_save()
-    logging.info("Running data processing...")
-    process_data_and_save()
+def run_app():
+    app.run(debug=False)
 
-# Schedule the job to run every 5 minutes
-schedule.every(1).minutes.do(job)
+def update_app():
+    logging.info("Updating the Flask app...")  # Add your update logic here
 
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+def main():
+    # Start a separate thread to run the Flask app
+    app_thread = Thread(target=run_app)
+    app_thread.daemon = True
+    app_thread.start()
+
+    while True:
+        # Fetch data and save every 5 minutes
+        collect_data_and_save()
+
+        # Update the model every 5 minutes
+        process_data_and_save()
+
+        # Update the Flask app every 60 minutes
+        update_app()
+
+        time.sleep(300)  # Sleep for 60 minutes (3600 seconds)
+
+if __name__ == "__main__":
+    main()
