@@ -1286,3 +1286,12 @@ KeyError: 'www xx yyy'
 2023-10-13 15:46:57,990 - INFO -  * Debugger PIN: 723-088-456
 2023-10-13 15:46:59,580 - INFO -  * Detected change in 'd:\\POC_WEB_3.0\\Development\\3.0.4\\app.py', reloading
 2023-10-13 15:47:01,490 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 16:09:28,327 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-13 16:09:28,327 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-13 16:09:28,348 - INFO -  * Restarting with watchdog (windowsapi)
+2023-10-13 16:09:31,788 - WARNING -  * Debugger is active!
+2023-10-13 16:09:31,793 - INFO -  * Debugger PIN: 723-088-456
+2023-10-13 16:09:35,056 - INFO - 127.0.0.1 - - [13/Oct/2023 16:09:35] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 16:14:48,989 - INFO - 127.0.0.1 - - [13/Oct/2023 16:14:48] "GET /get_recommendations HTTP/1.1" 200 -
+2023-10-13 16:28:24,820 - INFO - Data processing and model retraining completed.
