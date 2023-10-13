@@ -171,16 +171,16 @@ def get_recommendations():
     search_info = input_data["data"]["searchInfo"]
     sorted_search_info = sorted(search_info, key=lambda x: parse_datetime(x["searchDate"]), reverse=True)
     target_product_name = sorted_search_info[0]["product_name"]
-    # target_product_desc = sorted_search_info[0]["description"]
-    # target_product_log = target_product_name + target_product_desc
-    # target_product_clean=preprocess_text(target_product_log)
-    # product_list = extract_product_names(input_data)
-    # related_products = find_related_products_for_email(customer_email_to_find_related_products, product_list, target_product_name)
+    target_product_desc = sorted_search_info[0]["description"]
+    target_product_log = target_product_name + target_product_desc
+    target_product_clean=preprocess_text(target_product_log)
+    product_list = extract_product_names(input_data)
+    related_products = find_related_products_for_email(customer_email_to_find_related_products, product_list, target_product_name)
 
     # Calculate the TF-IDF vectors for all products
     all_products = purchase_history['product_name'].unique()
     all_products_logs = purchase_history['product_name'].unique()
-    all_product_vectors = tfidf_vectorizer.transform(target_product_name)
+    all_product_vectors = tfidf_vectorizer.transform(all_products_logs)
 
     # Calculate cosine similarity between the target product and all products
     target_product_vector = tfidf_vectorizer.transform([target_product_clean])
@@ -192,6 +192,11 @@ def get_recommendations():
     # Get the product names corresponding to the top indices
     top_cosine_tfidf_similar_products = [all_products[i] for i in top_cosine_tfidf_indices]
 
+    # Return both sets of recommendations as JSON response
+    # return jsonify({
+    #     "top_suggested_products": related_products,
+    #     "top_recommended_products": top_cosine_tfidf_similar_products
+    # })
     return top_cosine_tfidf_similar_products
 
 
