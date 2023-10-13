@@ -196,5 +196,5 @@ def get_recommendations():
     # })
     return top_cosine_tfidf_similar_products
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
