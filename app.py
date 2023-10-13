@@ -181,6 +181,11 @@ def get_recommendations():
     related_products = find_related_products_for_email(customer_email_to_find_related_products,product_list,target_product_name)
     top_similar_products = find_most_similar_products(related_products,target_product_name, top_n=10)
 
+    target_product_desc = sorted_search_info[0]["description"]
+    target_product_log = target_product_name + target_product_desc
+    target_product_clean=preprocess_text(target_product_log)
+    print(target_product_clean)
+
     # Return the recommendations as JSON response
     return jsonify(top_similar_products)
 
