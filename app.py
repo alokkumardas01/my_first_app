@@ -178,6 +178,7 @@ def get_recommendations():
     # related_products = find_related_products_for_email(customer_email_to_find_related_products, product_list, target_product_name)
 
     # Calculate the TF-IDF vectors for all products
+    all_products_sku = purchase_history['sku'].unique()
     all_products = purchase_history['product_name'].unique()
     all_products_logs = purchase_history['product_name'].unique()
     all_product_vectors = tfidf_vectorizer.transform(all_products_logs)
@@ -191,13 +192,14 @@ def get_recommendations():
     
     # Get the product names corresponding to the top indices
     top_cosine_tfidf_similar_products = [all_products[i] for i in top_cosine_tfidf_indices]
+    top_cosine_tfidf_similar_sku = [all_products_sku[i] for i in top_cosine_tfidf_indices]
 
     # Return both sets of recommendations as JSON response
     # return jsonify({
     #     "top_suggested_products": related_products,
     #     "top_recommended_products": top_cosine_tfidf_similar_products
     # })
-    return top_cosine_tfidf_similar_products
+    return top_cosine_tfidf_similar_sku
 
 
 # if __name__ == '__main__':
