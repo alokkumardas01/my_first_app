@@ -175,7 +175,7 @@ def get_recommendations():
     target_product_log = target_product_name + target_product_desc
     target_product_clean=preprocess_text(target_product_log)
     product_list = extract_product_names(input_data)
-    related_products = find_related_products_for_email(customer_email_to_find_related_products, product_list, target_product_name)
+    # related_products = find_related_products_for_email(customer_email_to_find_related_products, product_list, target_product_name)
 
     # Calculate the TF-IDF vectors for all products
     all_products = purchase_history['product_name'].unique()
